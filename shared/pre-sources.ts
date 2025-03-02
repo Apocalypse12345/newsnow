@@ -13,6 +13,14 @@ const Time = {
 }
 
 export const originSources = {
+  "aquafeed": {
+    name: "Aquafeed",
+    color: "blue",
+    column: "finance",
+    interval: Time.Common,
+    home: "https://www.aquafeed.com",
+    title: "水产饲料新闻",
+  },
   "v2ex": {
     name: "V2EX",
     color: "slate",
